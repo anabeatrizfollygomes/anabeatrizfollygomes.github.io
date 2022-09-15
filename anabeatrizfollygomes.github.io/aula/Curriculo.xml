@@ -1,0 +1,37 @@
+<?xml  version= "1.0" encoding="utf8"?>
+<aluno>
+<nome>
+Ana Beatriz F. Gomes
+</nome>
+<idade>
+15 anos
+</idade>
+<sexo>
+Feminino
+</sexo>
+<idioma>
+Portugues
+</idioma>
+<telefone>
+(55) 22 98174-666
+</telefone>
+<Endereço>
+Sitio Bela Vista
+</Endereço>
+<ocupacao>
+Estudante
+</ocupacao>
+<Escola>
+CEFET-RJ
+</Escola>
+<curso>
+Informatica
+</curso>
+<Materias>
+INFO basica,
+Desing Web,
+Algoritimo
+</Materias>
+</aluno>
+
+

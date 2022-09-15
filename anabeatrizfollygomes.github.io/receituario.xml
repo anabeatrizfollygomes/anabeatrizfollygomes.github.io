@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<receituario>
+<paciente>
+<nome>Ana Maria Marina</nome>
+<idade>7 anos</idade>
+</paciente>
+<instrucoes>
+<tipo>Uso interno</tipo>
+<remedio>Charope</remedio>
+<uso>1 colher 2x ao dia</uso>
+</instrucoes>
+</receituario>

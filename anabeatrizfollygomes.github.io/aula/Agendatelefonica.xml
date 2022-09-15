@@ -1,0 +1,39 @@
+<?xml  version= "1.0" encoding="utf8"?>
+<AgendaT>
+<name>
+Ana
+</name>
+<Address>
+Bela Vista
+</Address>
+<Home>
++55 (22) 98174-666
+</Home>
+<Work>
++55 (22) 98164-9897
+</Work>
+<name>
+Nicolly Boy
+</name>
+<Address>
+Rio Grandina
+</Address>
+<Home>
++55 (22) 981666-4546
+</Home>
+<Work>
++55 (22) 454647-9891
+</Work>
+<name>
+Roberval
+</name>
+<Address>
++55 (22) 09142-3132
+</Address>
+<Home>
++55 (22) 09876-5432
+</Home>
+<Work>
++55 (22) 12345-6789
+</Work>
+</AgendaT>
