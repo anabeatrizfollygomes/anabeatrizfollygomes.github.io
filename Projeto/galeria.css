@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #334ebf;
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header com os botões */
+header {
+    background-color: #161174;
+    padding: 60px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap; /* Permite quebra em telas pequenas */
+}
+
+.botao-container {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    background-color: #cdd6ff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #aab6ff;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Título principal */
+.titulo {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo h1 {
+    font-family: 'Candara', serif;
+    font-size: 5.0em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.decoracao {
+    font-size: 2.5em;
+    color: white;
+}
+
+/* Galeria de relatos */
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.relato {
+    width: 80%;
+    max-width: 700px;
+    border: 3px dashed #add8e6;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.relato img {
+    width: 100%;
+    display: block;
+}
+
+/* Rodapé */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: relative;
+    z-index: 1;
+}
+
+/* RESPONSIVIDADE - para telas até 768px */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .titulo h1 {
+        font-size: 2.2em;
+        padding: 0 15px;
+    }
+
+    .decoracao {
+        font-size: 1.5em;
+    }
+
+    .relato {
+        width: 90%;
+    }
+
+    .botao {
+        font-size: 0.95em;
+        padding: 8px 16px;
+    }
+}

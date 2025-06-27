@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #334ebf; /* fundo azul de base */
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+/* Camada da imagem por cima do azul */
+body::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("imagens/cefetPredio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* imagem mais suave */
+    z-index: 0;
+}
+
+/* Cabeçalho com menu */
+header {
+    background-color: #161174;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.botao-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.botao {
+    background-color: #cdd6ff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #aab6ff;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Conteúdo principal */
+main .conteudo {
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.conteudo h1 {
+    font-size: 6.5em;
+    margin-bottom: 20px;
+    font-family: 'Candara', serif;
+    font-weight: bold;
+}
+
+.conteudo p {
+    font-size: 1.7em;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Candara';
+    line-height: 1.6;
+}
+
+/* Rodapé fixo */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: relative;
+    z-index: 1;
+}
